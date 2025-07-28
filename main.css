@@ -1,6 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
-h2{
-  background: brown;
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hero-image{
+  background-image: url(./images/Scotland.jpg);
+  height: 352px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text{
+  color: whitesmoke;
+  position: absolute;
   text-align: center;
-  font-family: 'Seaweed Script'
+  top: 180px;
+  width: 100%;
+  font-size: 4rem;
 }
