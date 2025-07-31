@@ -17,7 +17,7 @@ img{
   color: whitesmoke;
   position: absolute;
   text-align: center;
-  top: 180px;
+  top: 220px;
   width: 100%;
   font-size: 4rem;
 }
@@ -26,11 +26,30 @@ img{
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 50px;
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 40px;
 }
 
 .info{
   font-size: 1.25em;
+}
+
+.three-column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.card{
+  background: darkgrey;
+}
+
+.card-text{
+  text-align: center;
+  font-size: 50px;
 }
